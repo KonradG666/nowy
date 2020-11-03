@@ -1,4 +1,3 @@
 filozof = ['Arystoteles','Platon','Sokrates']
-liczba_liter = [letter for letter in filozof]
-for litera in filozof:
-    print(len(litera))
+liczba_liter = [len(letter) for letter in filozof]
+print(liczba_liter)
